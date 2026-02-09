@@ -1,0 +1,44 @@
+{
+  "name": "@lxgicstudios/cors-debug",
+  "version": "1.0.0",
+  "description": "Debug CORS issues by sending preflight requests and showing full header breakdowns. Test specific origins, methods, and headers. Get fix suggestions and understand exactly WHY your CORS requests fail.",
+  "main": "dist/index.js",
+  "bin": {
+    "cors-debug": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cors-debugger",
+    "cors-testing",
+    "preflight-request",
+    "cors-headers",
+    "cross-origin",
+    "api-debugging",
+    "cors-fix",
+    "access-control",
+    "web-security",
+    "http-headers",
+    "cors-checker",
+    "cli-tool",
+    "developer-tools"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/cors-debug"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
