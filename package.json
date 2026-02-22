@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxgicstudios/cors-debug"
+    "url": "git+https://github.com/LXGIC-Studios/cors-debug.git"
   },
   "files": [
     "dist"
@@ -40,5 +40,13 @@
   "devDependencies": {
     "@types/node": "^25.2.2",
     "typescript": "^5.9.3"
+  },
+  "homepage": "https://github.com/LXGIC-Studios/cors-debug#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/cors-debug/issues"
   }
 }
